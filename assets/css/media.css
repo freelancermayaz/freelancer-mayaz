@@ -1,0 +1,360 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  #ecprriemce_center_div{
+    width: 85%;
+  }
+  #skills_center_div {
+    width: 80%;
+  }
+  .img_margin_top{
+    width: 98%;
+  }
+  #work_section .image{
+    width: 357px;
+  }
+  #present_2022{
+    width: 303px;
+  }
+  #Services{
+    width: 345px;
+  }
+  #present_2022 .Intern{
+    font-size: 20px;
+  }
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  /* Header section */
+ 
+  #my_name{
+    width: 90%;
+ 
+  }
+  #my_image img{
+    margin-top: 23%;
+  }
+  
+  .hi_there{
+    line-height: 42px;
+  }
+  .hi_there p{
+    font-size: 15px;
+    width: 88%;
+  }
+  
+  /* my image section */
+  .container .text{
+    font-size: 40px;
+  }
+  #my_name .hi_there h1 {
+    font-size: 26px;
+}
+
+.containe .text{
+  font-size: 40px;
+}
+.button_too a{
+  margin-right: 35px;
+}
+#exprriemce_section_width{
+  width: 95%;
+}
+#exprriemce_section_width{
+  width: 90%;
+}
+#present_2022 .Intern{
+  font-size: 19px;
+}
+#skills_center_div{
+  width: 95%;
+}
+#work_section .image{
+  width: 273px;
+}
+#work_section .image .img_text{
+  line-height: 17px;
+  padding: 5px;
+}
+#work_section .image .img_text .img_h1_color{
+  font-size: 18px;
+}
+#work_section .image .img_text p{
+  font-size: 10px;
+}
+#work_section .image .img_text a{
+  padding: 4px 8px;
+  margin-top: 3px;
+  font-size: 15px;
+}
+#with_only_services{
+  width: 90%;
+}
+#Services{
+  width: 45%;
+}
+#ecprriemce_center_div{
+  width: 90%;
+}
+#work_section .image .img_text .Text_img_html{
+  margin-top: 2px;
+  padding-bottom: 2px;
+}
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+
+  #my_image {
+    float:none;
+    width: 300px;
+    margin: auto;
+   
+}
+.hi_there {
+  margin-top: 6%;
+  line-height: 40px;
+  float: none;
+  width: auto
+}
+#present_2022{
+  width: auto;
+  display: block;
+}
+#work_section .image{
+  width: 310px;
+}
+#work_section .image .img_text{
+  line-height: 17px;
+  padding: 5px;
+}
+#work_section .image .img_text .img_h1_color{
+  font-size: 18px;
+}
+#work_section .image .img_text p{
+  font-size: 10px;
+}
+#work_section .image .img_text a{
+  padding: 4px 8px;
+  margin-top: 3px;
+  font-size: 15px;
+}
+#work_section .image .img_text .Text_img_html{
+  margin-top: 2px;
+  padding-bottom: 2px;
+}
+#Services{width: auto;}
+#my_name_srction{
+  padding-bottom: 0;
+}
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+
+  #my_image {
+    float:none;
+    width: 300px;
+    margin: auto;
+   
+}
+#my_name{
+  width: 96%;
+  margin-top: 0%;
+}
+.hi_there{
+  width: auto;
+}
+#my_name .hi_there h1{
+  font-size: 24px;
+}
+.container .text{
+  font-size: 35px;
+}
+.button_too a{
+  margin-right: 10px;
+}
+.containe .text{
+  font-size: 30px;
+}
+.hi_there{
+  line-height: 35px;
+}
+#my_name_srction{
+  padding-top: 14px;
+  padding-bottom: 0px;
+}
+#present_2022{
+  width: auto;
+  display: block;
+}
+#Services{
+  width: auto;
+  display: block;
+}
+#work_section .wrapper{
+  display: block;
+  margin: 25px;
+}
+#work_section .image{
+  width: auto;
+}
+#work_section .image .img_text{
+  line-height: 15px;
+}
+#work_section .image .img_text a{
+  padding: 8px 8px;
+  margin-top: 10px;
+  font-size: 24px;
+}
+#exprriemce_section{
+  padding-top:40px;
+  padding-bottom: 70px;
+}
+div#btn_inline_block {
+    margin: auto;
+    margin-top: 25px;
+    width: 90%;
+}
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+
+
+#my_image {
+  float:none;
+  width: 200px;
+  margin: auto;
+ 
+}
+#my_image img{
+  height: 200px;
+  width: 200px;
+}
+#my_name{
+width: 96%;
+margin-top: 0%;
+}
+.hi_there{
+width: auto;
+margin-top: 5%;
+line-height: 40px;
+float: none;
+}
+#my_name .hi_there h1{
+font-size: 18px;
+margin-bottom: auto;
+}
+.container .text{
+font-size: 24px;
+}
+.button_too a {
+  margin-top: 21px;
+  display: block;
+  text-align: center;
+}
+.containe .text{
+  font-size: 22px;
+}
+.button_too{
+  margin-top: 6%;
+}
+#my_name_srction{
+  padding-bottom: 0px;
+}
+#present_2022{
+  width: auto;
+  display: block;
+}
+#skills_center_div{
+  width: auto;
+  display: block;
+}
+#work_section .image{
+  width: auto;
+  display: block;
+}
+#Services{
+  width: auto;
+  display: block;
+}
+#skills_center_div #html{
+  width: 100px;
+  height: 100px;
+}
+a#hide_btn {
+    display: none;
+}
+#btn_inline_block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+}
+#work_section .image .img_text{
+  line-height: 18px;
+  padding: 3px 7px;
+}
+#work_section .image .img_text .img_h1_color {
+  font-size: 18px;
+}
+  
+#work_section .image .img_text p {
+  font-size: 12px;
+}
+#work_section .image .img_text > *{
+  transform: translateY(18px);
+}
+#work_section .image .img_text a{
+  padding: 3px 8px;
+  font-size: 12px;
+}
+  
+}
