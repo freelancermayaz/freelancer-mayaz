@@ -103,7 +103,7 @@
   width: 90%;
 }
 #Services{
-  width: 45%;
+  width: 375px;
 }
 #ecprriemce_center_div{
   width: 90%;
@@ -163,7 +163,7 @@
   margin-top: 2px;
   padding-bottom: 2px;
 }
-#Services{width: auto;}
+#Services{width: 100%;}
 #my_name_srction{
   padding-bottom: 0;
 }
@@ -261,7 +261,12 @@ div#btn_inline_block {
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
+@media (min-width: 320px) and (max-width: 1024px){
+  section {
+    min-height: 1vh;
+}
 
+}
 @media (min-width: 320px) and (max-width: 480px) {
   
 
