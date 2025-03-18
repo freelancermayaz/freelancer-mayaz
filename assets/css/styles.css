@@ -336,9 +336,7 @@ nav  a:hover{
 
 /* <section id="my_name_srction"> */
 
-section{
-  min-height: 100vh;
-}
+
 
 
 #my_name_srction{
@@ -1015,5 +1013,9 @@ color: whitesmoke;
     margin-left: 0;
   }
 }
+@media (min-width: 821px) and (max-width: 1000px){
 
-
+  #contact_us_section .container .content .left-side{
+    width: 35%;
+  }
+}
