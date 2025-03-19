@@ -839,7 +839,7 @@ color: whitesmoke;
 #Services .services_hover{
   margin-bottom: 10px;
 }
-#Services .services_hover h2:hover{
+#Services:hover .services_hover{
   color: #00e9ff;
 }
 #Services .services_hover .fa-arrow-up-right-from-square{
