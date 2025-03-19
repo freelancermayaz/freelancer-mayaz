@@ -735,7 +735,6 @@ color: whitesmoke;
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #57606fd4;
   display: flex;
   flex-direction: column;
   cursor: pointer;
@@ -744,14 +743,15 @@ color: whitesmoke;
   align-content: center;
   line-height: 25px;
   opacity: 0;
-  
+  background: linear-gradient(360deg, rgb(11 217 235 / 80%) 0%, rgba(75, 87, 255, 0) 60%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0bd9eb",endColorstr="#4b57ff",GradientType=1);
 }
 #work_section .image .img_text:hover{
   opacity: 1;
 }
 #work_section .image .img_text .Text_img_html{
   margin-top: 4px;
-  color: #00e9ff;
+  color: #ffbb00;
   padding-bottom: 4px;
   border-bottom: 1px solid #ddd;
 }
