@@ -842,6 +842,10 @@ color: whitesmoke;
 #Services:hover .services_hover{
   color: #00e9ff;
 }
+#Services:hover .services_hover a i{
+  background-color: #00e9ff;
+  color: black;
+}
 #Services .services_hover .fa-arrow-up-right-from-square{
   float: right;
   font-size: 20px;
@@ -849,9 +853,11 @@ color: whitesmoke;
   background: white;
   border-radius: 9999px;
 }
+#Services .services_hover .fa-arrow-up-right-from-square{
+  transition: all 0.5s;
+}
 #Services .services_hover .fa-arrow-up-right-from-square:hover{
-  background-color: #00e9ff;
-  color: black;
+  transform: rotate(50deg);
 }
 
 /* <section id="contact_us_section"> */
